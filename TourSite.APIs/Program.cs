@@ -34,12 +34,12 @@ namespace TourSite.APIs
                         .WithOrigins(
                             "https://electro-pi-five.vercel.app",
                             "http://localhost:4200",
-                            "https://www.bbesocial.com" // 👈 ضيف دي
+                            // 
 
                         )
                         .AllowAnyHeader()
                         .AllowAnyMethod()
-                        .AllowCredentials(); // 👈 مهم جدًا
+                        .AllowCredentials(); //
                 });
             });
 
